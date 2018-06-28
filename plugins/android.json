@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.cordova.testapp"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.cordova.testapp"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.cordova.testapp"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.cordova.testapp"
+    }
+  }
+}

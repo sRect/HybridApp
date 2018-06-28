@@ -1,0 +1,74 @@
+.adsk-viewing-viewer .mem-mgr-container {
+    width: 240px;
+    min-width: 240px;
+    top: 180px;
+    left: 220px;
+    line-height: 14px;
+    border-spacing: 1px;
+    border-collapse: separate;
+    resize: none;
+    background: rgba(34, 34, 34, 0.8);
+}
+
+.adsk-viewing-viewer .mem-mgr-content {
+    width: 100%;
+    height: calc(100% - 55px);
+    resize: none;
+    position: relative;
+}
+
+.adsk-viewing-viewer .mem-mgr-reload {
+    display: block;
+    font-size: 14px;
+    margin: 15px 20px 15px 21px;
+    padding: 6px 10px 6px 10px;
+    width: calc(100% - 60px);
+    cursor: pointer;
+    text-align: center;
+}
+
+.adsk-viewing-viewer .mem-mgr-reload:hover {
+    background-color: rgba(166,194,255, 0.7);
+    transition: all 0.2s ease;
+}
+
+.adsk-viewing-viewer .mem-mgr-status {
+    display: block;
+    font-size: 14px;
+    margin: 0px;
+    padding: 2px 10px;
+    width: calc(100% - 60px);
+    height: 28px;
+    cursor: pointer;
+    text-align: left;
+    white-space: pre;
+}
+
+.adsk-viewing-viewer .mem-mgr-memory td > input[id$="_stepper"], .mem-mgr-occlusion td > input[id$="_stepper"], .mem-mgr-debug td > input[id$="_stepper"] {
+    color: initial;
+}
+
+.adsk-viewing-viewer .memory-manager {
+    max-width: 380px !important;
+}
+
+.adsk-viewing-viewer .memory-manager .settings-tabs ul li,
+.adsk-viewing-viewer .memory-manager .settings-tabs ul li a {
+    width: 33%;
+}
+
+.adsk-viewing-viewer .memory-manager .mem-mgr-occlusion a {
+    text-align: center;
+}
+
+.adsk-viewing-viewer .memory-manager .docking-panel-scroll {
+    top: 40px;
+}
+
+.adsk-viewing-viewer .memory-manager .switch {
+    margin-left: 25px;
+}
+
+.adsk-viewing-viewer .memory-manager .switch .slider {
+    width: 26px;
+}

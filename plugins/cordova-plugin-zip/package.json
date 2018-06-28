@@ -1,0 +1,56 @@
+{
+  "_from": "git+https://github.com/MobileChromeApps/zip.git",
+  "_id": "cordova-plugin-zip@3.1.0",
+  "_inBundle": false,
+  "_integrity": "sha1-IJJDgZCx6nHzWX8vQwOEedQKfDo=",
+  "_location": "/cordova-plugin-zip",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "https://github.com/MobileChromeApps/zip.git",
+    "rawSpec": "https://github.com/MobileChromeApps/zip.git",
+    "saveSpec": "git+https://github.com/MobileChromeApps/zip.git",
+    "fetchSpec": "https://github.com/MobileChromeApps/zip.git",
+    "gitCommittish": "master"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/MobileChromeApps/zip.git#977b57d2a5e4bf8d8b7671e5b498aa8ca098fbe4",
+  "_spec": "https://github.com/MobileChromeApps/zip.git",
+  "_where": "C:\\Users\\Administrator\\Desktop\\cordovaApp",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/MobileChromeApps/zip/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-unzip",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Unzips zip files",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.3.0"
+    }
+  ],
+  "homepage": "https://github.com/MobileChromeApps/zip",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "BSD",
+  "name": "cordova-plugin-zip",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MobileChromeApps/cordova-plugin-zip.git"
+  },
+  "version": "3.1.0"
+}
