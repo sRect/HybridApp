@@ -81,7 +81,7 @@ cordova build android
 cordova run android
 ```
 
-+ 6.2 生成签名包
++ 6.2 生成数字签名证书
 > 生成签名包前，需要提前把数字签名证书生成
 ```
 keytool -genkey -v -keystore E:\mytest.keystore -alias mytest -keyalg RSA -validity 20000
